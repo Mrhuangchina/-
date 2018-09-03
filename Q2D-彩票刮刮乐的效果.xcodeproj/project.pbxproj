@@ -13,6 +13,7 @@
 		A338A433213D1AA000255A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A338A431213D1AA000255A6D /* Main.storyboard */; };
 		A338A435213D1AA000255A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A338A434213D1AA000255A6D /* Assets.xcassets */; };
 		A338A438213D1AA000255A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A338A436213D1AA000255A6D /* LaunchScreen.storyboard */; };
+		A338A441213D1B0E00255A6D /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A338A440213D1B0E00255A6D /* UIImage+ImageWithColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A338A434213D1AA000255A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A338A437213D1AA000255A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A338A439213D1AA000255A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A338A43F213D1B0E00255A6D /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		A338A440213D1B0E00255A6D /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		A338A427213D1AA000255A6D /* Q2D-彩票刮刮乐的效果 */ = {
 			isa = PBXGroup;
 			children = (
+				A338A43F213D1B0E00255A6D /* UIImage+ImageWithColor.h */,
+				A338A440213D1B0E00255A6D /* UIImage+ImageWithColor.m */,
 				A338A42B213D1AA000255A6D /* AppDelegate.h */,
 				A338A42C213D1AA000255A6D /* AppDelegate.m */,
 				A338A42E213D1AA000255A6D /* ViewController.h */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A338A430213D1AA000255A6D /* ViewController.m in Sources */,
+				A338A441213D1B0E00255A6D /* UIImage+ImageWithColor.m in Sources */,
 				A338A42D213D1AA000255A6D /* AppDelegate.m in Sources */,
 				A338A42A213D1AA000255A6D /* main.m in Sources */,
 			);
